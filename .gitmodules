@@ -1,0 +1,3 @@
+[submodule "cookbooks/redmine"]
+	path = cookbooks/redmine
+	url = https://github.com/JURUJURUboy/redmine-cookbook.git
