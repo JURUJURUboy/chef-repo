@@ -1,6 +1,7 @@
 cookbook 'ruby_build', :git => 'git://github.com/fnichol/chef-ruby_build.git', :ref => 'master'
 cookbook 'rbenv', :git => 'git://github.com/fnichol/chef-rbenv.git', :ref => 'master'
 cookbook 'git', :locked_version => '2.5.2'
+cookbook 'sqlite', :locked_version => '1.0.0'
 cookbook 'nginx', :locked_version => '1.6.0'
 cookbook 'unicorn', :locked_version => '1.2.2'
 cookbook 'java', :locked_version => '1.11.4'

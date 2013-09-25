@@ -6,6 +6,6 @@ group :ruby do
 end
 
 cookbook "git"
-
+cookbook "sqlite"
 cookbook "nginx"
 cookbook "unicorn"
