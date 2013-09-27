@@ -3,7 +3,6 @@ description "Redmine"
 run_list(
   "role[ruby]",
   "recipe[redmine]",
-  "recipe[redmine::backup]"
 )
 default_attributes({
   "rbenv" => {

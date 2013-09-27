@@ -8,8 +8,6 @@ cookbook "rbenv",
 
 cookbook "git"
 
-cookbook "sqlite"
-
 cookbook "nginx"
 
 cookbook "unicorn"

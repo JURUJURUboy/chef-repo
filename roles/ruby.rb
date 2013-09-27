@@ -13,8 +13,6 @@ default_attributes({
     "gems" => {
       "1.9.3-p392" => [
         { "name" => "bundler", "version" => "1.3.5" },
-        { "name" => "rails" },
-        { "name" => "sqlite3", "version" => "1.3.7" }
       ]
     }
   }
