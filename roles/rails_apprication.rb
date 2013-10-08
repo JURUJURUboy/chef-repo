@@ -1,5 +1,5 @@
-name "redmine"
-description "Redmine"
+name "rails_application"
+description "rails_application"
 run_list(
   "role[ruby]",
 )
