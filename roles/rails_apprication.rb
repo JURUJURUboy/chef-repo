@@ -1,6 +1,7 @@
 name "rails_application"
 description "rails_application"
 run_list(
+  "recipe[git]",
   "role[ruby]",
 )
 default_attributes({
