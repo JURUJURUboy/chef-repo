@@ -18,3 +18,5 @@ cookbook "mysql"
 
 cookbook "redmine", 
   git: "git://github.com/spesnova/redmine-cookbook.git"
+
+cookbook "jenkins"
