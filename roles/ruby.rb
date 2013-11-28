@@ -8,7 +8,7 @@ run_list(
 )
 default_attributes({
   "rbenv" => {
-    "rubies" => [ "1.9.3-p392" ],
+    "rubies" => [ "2.0.0-p0" ],
     "global" => "1.9.3-p392",
     "gems" => {
       "1.9.3-p392" => [
