@@ -7,7 +7,7 @@ run_list(
 default_attributes({
   "rbenv" => {
     "gems" => {
-      "1.9.3-p392" => [
+      "2.0.0-p353" => [
         { "name" => "rails",   "version" => "4.0.1" },
         { "name" => "unicorn", "version" => "4.6.2"  }
       ]
