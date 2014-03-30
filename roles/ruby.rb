@@ -8,10 +8,10 @@ run_list(
 )
 default_attributes({
   "rbenv" => {
-    "rubies" => [ "1.9.3-p392" ],
-    "global" => "1.9.3-p392",
+    "rubies" => [ "2.0.0-p451" ],
+    "global" => "2.0.0-p451",
     "gems" => {
-      "1.9.3-p392" => [
+      "2.0.0-p451" => [
         { "name" => "bundler", "version" => "1.3.5" },
       ]
     }
