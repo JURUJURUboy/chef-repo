@@ -7,9 +7,9 @@ run_list(
 default_attributes({
   "rbenv" => {
     "gems" => {
-      "2.0.0-p451" => [
-        { "name" => "rails",   "version" => "4.0.1" },
-        { "name" => "unicorn", "version" => "4.6.2"  }
+      "2.1.1" => [
+        { "name" => "rails",   "version" => "4.0.4" },
+        { "name" => "unicorn", "version" => "4.8.2"  }
       ]
     }
   },
