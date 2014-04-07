@@ -1,7 +1,7 @@
 name "ruby"
 description "Configure Ruby environment"
 run_list(
-  # TODO support ubuntu
+  "recipe[yum]",
   "recipe[yum::epel]",
   "recipe[ruby_build]",
   "recipe[rbenv::system]"

@@ -22,3 +22,7 @@ cookbook "redmine",
 cookbook "jenkins"
 
 cookbook "iptables"
+
+cookbook "yum"
+
+cookbook "yum-epel"
