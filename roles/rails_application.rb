@@ -8,7 +8,7 @@ default_attributes({
   "rbenv" => {
     "gems" => {
       "2.1.1" => [
-        { "name" => "rails",   "version" => "4.0.4" },
+        { "name" => "rails",   "version" => "4.1.0" },
         { "name" => "unicorn", "version" => "4.8.2"  }
       ]
     }
