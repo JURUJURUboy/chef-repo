@@ -1,7 +1,7 @@
 name "ruby"
 description "Configure Ruby environment"
 run_list(
-  "recipe[yum::epel]",
+  "recipe[yum-epel]",
   "recipe[ruby_build]",
   "recipe[rbenv::system]"
 )
